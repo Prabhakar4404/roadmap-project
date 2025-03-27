@@ -1,67 +1,86 @@
-</-- http://127.0.0.1:3000/Roadmap%20projects/cv%20html/index.html -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
 </head>
-<body>
-    <header>
-        <h1>John Doe</h1>
-        <p>Web Developer</p>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; max-width: 800px; margin-left: auto; margin-right: auto;">
+    
+    <!-- Header Section -->
+    <header style="text-align: center; border-bottom: 2px solid #333; padding-bottom: 10px;">
+        <h1 style="margin: 0; color: #333;">John Doe</h1>
+        <p style="margin: 5px 0; color: #666;">
+            Email: john.doe@example.com | Phone: (123) 456-7890 | Location: New York, NY
+        </p>
+        <p style="margin: 5px 0;">
+            <a href="https://linkedin.com/in/johndoe" style="color: #0073b1; text-decoration: none;">LinkedIn</a> | 
+            <a href="https://github.com/johndoe" style="color: #0073b1; text-decoration: none;">GitHub</a>
+        </p>
     </header>
-    <hr>
-    <section>
-        <h2>Personal Information</h2>
-        <table>
-            <tr>
-                <td>Address:</td>
-                <td>123 Placeholder St, City, Country</td>
-            </tr>
-            <tr>
-                <td>Phone:</td>
-                <td>+123 456 7890</td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td>john.doe@example.com</td>
-            </tr>
-        </table>
+
+    <!-- Summary Section -->
+    <section style="margin-top: 20px;">
+        <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Summary</h2>
+        <p style="line-height: 1.6;">
+            Dedicated and detail-oriented professional with 5+ years of experience in software development and project management. 
+            Skilled in problem-solving and delivering high-quality solutions under tight deadlines.
+        </p>
     </section>
-    <hr>
-    <section>
-        <h2>Education</h2>
-        <p><strong>Bachelor of Science in Computer Science</strong>, University of Example, 2018-2022</p>
-        <p><strong>High School Diploma</strong>, Example High School, 2014-2018</p>
+
+    <!-- Education Section -->
+    <section style="margin-top: 20px;">
+        <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Education</h2>
+        <div style="margin-bottom: 15px;">
+            <h3 style="margin: 0; color: #555;">Bachelor of Science in Computer Science</h3>
+            <p style="margin: 5px 0; color: #666;">University of Example | New York, NY</p>
+            <p style="margin: 0; color: #777;">Graduated: May 2018</p>
+        </div>
     </section>
-    <hr>
-    <section>
-        <h2>Work Experience</h2>
-        <p><strong>Web Developer Intern</strong>, Example Company, June 2021 - August 2021</p>
-        <ul>
-            <li>Developed and maintained company website</li>
-            <li>Collaborated with design team to implement new features</li>
+
+    <!-- Experience Section -->
+    <section style="margin-top: 20px;">
+        <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Experience</h2>
+        <div style="margin-bottom: 15px;">
+            <h3 style="margin: 0; color: #555;">Software Developer</h3>
+            <p style="margin: 5px 0; color: #666;">TechCorp | New York, NY</p>
+            <p style="margin: 0; color: #777;">June 2018 – Present</p>
+            <ul style="line-height: 1.6; margin-top: 5px;">
+                <li>Developed and maintained web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with cross-functional teams to deliver projects on time.</li>
+                <li>Optimized code for better performance and scalability.</li>
+            </ul>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <h3 style="margin: 0; color: #555;">Junior Developer</h3>
+            <p style="margin: 5px 0; color: #666;">StartUp Inc. | New York, NY</p>
+            <p style="margin: 0; color: #777;">June 2017 – May 2018</p>
+            <ul style="line-height: 1.6; margin-top: 5px;">
+                <li>Assisted in building RESTful APIs and integrating databases.</li>
+                <li>Performed debugging and testing of applications.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section style="margin-top: 20px;">
+        <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Skills</h2>
+        <ul style="line-height: 1.6; columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>Project Management</li>
+            <li>Team Collaboration</li>
         </ul>
-        <p><strong>Freelance Web Developer</strong>, Self-employed, 2020 - Present</p>
-        <ul>
-            <li>Created websites for small businesses</li>
-            <li>Managed client relationships and project timelines</li>
-        </ul>
     </section>
-    <hr>
-    <section>
-        <h2>Skills</h2>
-        <p><strong>Technical Skills:</strong> HTML, CSS, JavaScript, Python</p>
-        <p><strong>Languages:</strong> English (fluent), Spanish (intermediate)</p>
-    </section>
-    <hr>
-    <section>
-        <h2>Projects</h2>
-        <p><strong>Little Lemon Cafe Website</strong> - A single-page CV created using HTML.</p>
-        <p><strong>Portfolio Website</strong> - A personal portfolio showcasing my work.</p>
-    </section>
+
+    <!-- Footer -->
+    <footer style="text-align: center; margin-top: 30px; color: #666;">
+        <p>Last Updated: March 27, 2025</p>
+    </footer>
+
 </body>
 </html>
